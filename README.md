@@ -76,16 +76,3 @@ curl -X POST http://localhost:3000/api/auth/login \
 curl http://localhost:3000/api/aulas \
   -H "Authorization: Bearer <your_token>"
 ```
-
-## Environment Variables
-
-```env
-DB_HOST=localhost
-DB_PORT=5432
-DB_NAME=professor_db
-DB_USER=postgres
-DB_PASSWORD=your_password
-JWT_SECRET=your_secret_key
-JWT_EXPIRES_IN=24h
-PORT=3000
-```
